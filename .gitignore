@@ -1,0 +1,6 @@
+.rebar/
+_build/
+ebin/
+*.lock
+*.crashdump
+tags

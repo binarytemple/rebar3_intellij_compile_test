@@ -1,0 +1,8 @@
+{application, basic_app,
+ [{description, ""},
+  {vsn, "perpetual_beta"},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+ ]}.
