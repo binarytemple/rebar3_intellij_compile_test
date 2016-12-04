@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../rebar3/rebar3.iml" filepath="$PROJECT_DIR$/../rebar3/rebar3.iml" />
+      <module fileurl="file://$PROJECT_DIR$//rebar3_intellij_compile_test.iml" filepath="$PROJECT_DIR$//rebar3_intellij_compile_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_checkouts/rebar3_intellij_plugin/rebar3_intellij_plugin.iml" filepath="$PROJECT_DIR$/_checkouts/rebar3_intellij_plugin/rebar3_intellij_plugin.iml" />
+    </modules>
+  </component>
+</project>
