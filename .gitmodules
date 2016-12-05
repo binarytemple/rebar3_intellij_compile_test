@@ -1,0 +1,3 @@
+[submodule "_checkouts/rebar3_intellij_plugin"]
+	path = _checkouts/rebar3_intellij_plugin
+	url = git@github.com:binarytemple/rebar3_intellij_plugin.git
