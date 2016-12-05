@@ -1,1 +1,1 @@
--define(include_define, true).
+-include_lib("eunit/include/eunit.hrl").

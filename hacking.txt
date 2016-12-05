@@ -1,0 +1,33 @@
+
+
+{ok,B} = file:read_file("/tmp/bres.txt").
+
+[C] = binary_to_term(B).
+
+
+proplists:get_value(app_config_files, C).
+
+proplists:get_keys(C).
+
+proplists:get_value(erl_files, C).
+
+proplists:get_value(hrl_files, C).
+
+
+
+E= "/common/rebar3_intellij_compile_test/_checkouts/rebar3_intellij_plugin/_build/default/lib/erlydtl/src/erlydtl_time_compat.erl".
+
+lists:usort([1,1]).
+
+ErlDirs = lists:usort ( [ filename:dirname(F) || F <- proplists:get_value(erl_files, C) ] ) . 
+
+{TestDirs,SourceDirs} =  lists:partition(fun(D) -> lists:suffix("test",D) end, ErlDirs).
+
+
+IncludeDirs = [ D || D <- 
+        lists:usort ( [ filename:dirname(F) || F <- proplists:get_value(hrl_files, C) ] ) , lists:suffix("include",D) 
+        ].
+
+
+
+
